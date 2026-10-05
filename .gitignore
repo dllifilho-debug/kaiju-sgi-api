@@ -1,0 +1,12 @@
+# Dependências: instaladas no build (npm ci), nunca versionadas
+node_modules/
+
+# Segredos e configuração local
+.env
+.env.*
+!.env.example
+
+# Logs e sistema
+npm-debug.log*
+*.log
+.DS_Store
